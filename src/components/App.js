@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Login from "./Login";
 
 import NavBar from './NavBar'
 import Products from "./Products";
@@ -13,7 +14,7 @@ class App extends React.Component {
                     <div className={"content"}>
                         <Switch>
                             <Route exact path={"/"}>
-                                <div>Main page</div>
+                                <Login/>
                             </Route>
                             <Route path={"/products"}>
                                 <Products/>
