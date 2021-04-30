@@ -5,6 +5,7 @@ import Login from "./Login";
 import NavBar from './NavBar'
 import Products from "./Products";
 import Footer from "./Footer";
+import ProductsUnits from "./ProductsUnits";
 
 class App extends React.Component {
 
@@ -20,6 +21,9 @@ class App extends React.Component {
                             </Route>
                             <Route path={"/products"}>
                                 <Products/>
+                            </Route>
+                            <Route path={"/products-units"}>
+                                <ProductsUnits/>
                             </Route>
                         </Switch>
                         <Footer/>

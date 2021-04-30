@@ -11,7 +11,7 @@ class NavBar extends React.Component{
                 <Nav className="mr-auto">
                     <NavDropdown title="Products" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="/products">Products</NavDropdown.Item>
-                        <NavDropdown.Item href="#products-units">Products Units</NavDropdown.Item>
+                        <NavDropdown.Item href="/products-units">Products Units</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="#invoices">Invoices</Nav.Link>
                     <Nav.Link href="#suppliers">Suppliers</Nav.Link>

@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="feat: create Footer">
-      <change afterPath="$PROJECT_DIR$/public/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sideLoginFormImage.jfif" afterDir="false" />
+    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="feat: add images, sidebarlogin and new icon">
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsUnits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619614862241</updated>
       <workItem from="1619614863761" duration="10143000" />
-      <workItem from="1619720676686" duration="22741000" />
+      <workItem from="1619720676686" duration="22937000" />
+      <workItem from="1619765919407" duration="4462000" />
     </task>
     <task id="LOCAL-00001" summary="fetch: create navbar component">
       <created>1619623287687</created>
@@ -112,7 +105,35 @@
       <option name="project" value="LOCAL" />
       <updated>1619740177872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: update login, add jwt post authorization">
+      <created>1619743968326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619743968326</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: delete Home from NavBar">
+      <created>1619743991099</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619743991099</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: create Products connection to backend">
+      <created>1619744017445</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619744017445</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add images, sidebarlogin and new icon">
+      <created>1619744046183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619744046183</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +156,10 @@
     <MESSAGE value="feat: create routing and table of products(without api)" />
     <MESSAGE value="feat: create Login page component" />
     <MESSAGE value="feat: create Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create Footer" />
+    <MESSAGE value="feat: update login, add jwt post authorization" />
+    <MESSAGE value="feat: delete Home from NavBar" />
+    <MESSAGE value="feat: create Products connection to backend" />
+    <MESSAGE value="feat: add images, sidebarlogin and new icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add images, sidebarlogin and new icon" />
   </component>
 </project>

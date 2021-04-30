@@ -29,9 +29,9 @@ class Products extends React.Component {
     getProducts = async () => {
         try {
             let data = await api.get('/',{
-                headers: {
-                    Authorization: 'Bearer ' + localStorage.getItem('token')
-                },
+                // headers: {
+                //     Authorization: 'Bearer ' + localStorage.getItem('token')
+                // },
                 params: {
                 page: this.pageNumber,
                 size: this.sizeNumber
@@ -51,6 +51,22 @@ class Products extends React.Component {
     updateProducts = async () => {
         let data = await api.put(`/`)
         this.getProducts()
+    }
+
+    exportToPdf = async () => {
+        await  api.get(`/export/pdf`, {
+            headers: {
+                accept: 'application/pdf'
+            }
+        })
+    }
+
+    exportToExcel = async () => {
+        await  api.get(`/export/excel`, {
+            headers: {
+                accept: 'application/vnd.ms-excel'
+            }
+        })
     }
 
     render() {
@@ -78,7 +94,8 @@ class Products extends React.Component {
                                 <div className="col-md-6">
                                     <div className="text-md-right dataTables_filter" id="dataTable_filter"><label>
                                         <Button className={"mr-sm-2"}>Add new product</Button>
-                                        <Button>Export</Button>
+                                        <Button className={"mr-sm-2"} onClick={() => this.exportToPdf()}>Export to PDF</Button>
+                                        <Button onClick={() => this.exportToExcel()}>Export to Excel</Button>
                                     </label>
                                     </div>
                                 </div>
