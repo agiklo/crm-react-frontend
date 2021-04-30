@@ -1,6 +1,28 @@
 import React from "react";
+import axios from "axios";
+
+const api = axios.create({
+    baseURL: `http://localhost:8080`
+})
 
 class Login extends React.Component {
+    sideLoginFormImage = "url(./sideLoginFormImage.jfif)";
+
+    handleSubmit = e => {
+        e.preventDefault();
+        const data = {
+            username: this.username,
+            password: this.password
+        }
+
+        //login operation
+        api.post('/login', data).then( res => {
+                localStorage.setItem('token', res.data.token);
+            }).catch(err => {
+                console.log(err)
+            })
+    }
+
     render() {
         return (
             <body className="bg-gradient-primary">
@@ -12,21 +34,21 @@ class Login extends React.Component {
                                 <div className="row">
                                     <div className="col-lg-6 d-none d-lg-flex">
                                         <div className="flex-grow-1 bg-login-image"
-                                             style={{backgroundImage:"url(https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)"}} />
+                                             style={{backgroundImage: this.sideLoginFormImage}} />
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="p-5">
                                             <div className="text-center">
                                                 <h4 className="text-dark mb-4">Login</h4>
                                             </div>
-                                            <form className="user">
+                                            <form className="user" onSubmit={this.handleSubmit}>
                                                 <div className="form-group"><input
                                                     className="form-control form-control-user" type="email"
                                                     id="exampleInputEmail" aria-describedby="emailHelp"
-                                                    placeholder="Enter Email Address..." name="email"/></div>
+                                                    placeholder="Enter Email Address..." name="username" onChange={e => this.username = e.target.value}/></div>
                                                 <div className="form-group">
                                                     <input className="form-control form-control-user" type="password"
-                                                    id="exampleInputPassword" placeholder="Password" name="password"/>
+                                                    id="exampleInputPassword" placeholder="Password" name="password" onChange={e => this.password = e.target.value}/>
                                                 </div>
                                                 <div className="form-group">
                                                     <div className="custom-control custom-checkbox small">
