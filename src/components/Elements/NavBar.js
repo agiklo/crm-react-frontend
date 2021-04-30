@@ -13,11 +13,12 @@ class NavBar extends React.Component{
                         <NavDropdown.Item href="/products">Products</NavDropdown.Item>
                         <NavDropdown.Item href="/products-units">Products Units</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#invoices">Invoices</Nav.Link>
-                    <Nav.Link href="#suppliers">Suppliers</Nav.Link>
-                    <Nav.Link href="#departments">Departments</Nav.Link>
-                    <Nav.Link href="#absenteeisms">Absenteeisms</Nav.Link>
-                    <Nav.Link href="#forum">Forum</Nav.Link>
+                    <Nav.Link href="/employees">Employees</Nav.Link>
+                    <Nav.Link href="/invoices">Invoices</Nav.Link>
+                    <Nav.Link href="/suppliers">Suppliers</Nav.Link>
+                    <Nav.Link href="/departments">Departments</Nav.Link>
+                    <Nav.Link href="/absenteeisms">Absenteeisms</Nav.Link>
+                    <Nav.Link href="/forum">Forum</Nav.Link>
                 </Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />

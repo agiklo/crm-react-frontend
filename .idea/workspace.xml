@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="feat: add images, sidebarlogin and new icon">
-      <change afterPath="$PROJECT_DIR$/src/components/ProductsUnits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="feat: Create ProductsUnits component">
+      <change afterPath="$PROJECT_DIR$/src/components/Employees.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Employees.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,8 @@
       <updated>1619614862241</updated>
       <workItem from="1619614863761" duration="10143000" />
       <workItem from="1619720676686" duration="22937000" />
-      <workItem from="1619765919407" duration="4462000" />
+      <workItem from="1619765919407" duration="4692000" />
+      <workItem from="1619776808006" duration="5777000" />
     </task>
     <task id="LOCAL-00001" summary="fetch: create navbar component">
       <created>1619623287687</created>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619744046183</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: Create ProductsUnits component">
+      <created>1619770577110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619770577110</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <MESSAGE value="feat: delete Home from NavBar" />
     <MESSAGE value="feat: create Products connection to backend" />
     <MESSAGE value="feat: add images, sidebarlogin and new icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add images, sidebarlogin and new icon" />
+    <MESSAGE value="feat: Create ProductsUnits component" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Create ProductsUnits component" />
   </component>
 </project>

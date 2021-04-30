@@ -2,10 +2,12 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import Login from "./Login";
-import NavBar from './NavBar'
 import Products from "./Products";
-import Footer from "./Footer";
+import Footer from "./Elements/Footer";
 import ProductsUnits from "./ProductsUnits";
+import Employees from "./Employees/Employees"
+import NavBar from "./Elements/NavBar";
+import Dashboard from './Dashboard/Dashboard'
 
 class App extends React.Component {
 
@@ -16,6 +18,9 @@ class App extends React.Component {
                     <div className={"content"}>
                         <NavBar/>
                         <Switch>
+                            <Route exact path={"/"}>
+                                <Dashboard/>
+                            </Route>
                             <Route exact path={"/login"}>
                                 <Login/>
                             </Route>
@@ -24,6 +29,9 @@ class App extends React.Component {
                             </Route>
                             <Route path={"/products-units"}>
                                 <ProductsUnits/>
+                            </Route>
+                            <Route path={"/employees"}>
+                                <Employees/>
                             </Route>
                         </Switch>
                         <Footer/>
