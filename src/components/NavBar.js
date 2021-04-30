@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, Nav, Form, FormControl, Button, NavDropdown, Image} from 'react-bootstrap';
+import {Navbar, Nav, Form, FormControl, Button, NavDropdown} from 'react-bootstrap';
 
 class NavBar extends React.Component{
     render() {
@@ -9,7 +9,6 @@ class NavBar extends React.Component{
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
                     <NavDropdown title="Products" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="/products">Products</NavDropdown.Item>
                         <NavDropdown.Item href="#products-units">Products Units</NavDropdown.Item>
@@ -33,7 +32,6 @@ class NavBar extends React.Component{
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
-                <Image src="profile_male.svg/20x20" roundedCircle />
         </Navbar>
         )
     }
