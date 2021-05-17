@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="feat: Create ProductsUnits component">
-      <change afterPath="$PROJECT_DIR$/src/components/Employees.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Employees.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Invoices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Headers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,8 @@
       <workItem from="1619720676686" duration="22937000" />
       <workItem from="1619765919407" duration="4692000" />
       <workItem from="1619776808006" duration="5777000" />
+      <workItem from="1620799502535" duration="149000" />
+      <workItem from="1621252267522" duration="1432000" />
     </task>
     <task id="LOCAL-00001" summary="fetch: create navbar component">
       <created>1619623287687</created>
