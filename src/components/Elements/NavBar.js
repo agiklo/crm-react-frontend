@@ -29,7 +29,7 @@ class NavBar extends React.Component{
                         <NavDropdown.Item href="#action/3.1">Settings</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">My posts</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.3">Logout</NavDropdown.Item>
+                        <NavDropdown.Item href="/logout">Logout</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
