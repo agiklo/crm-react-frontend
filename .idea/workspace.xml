@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="feat: Create ProductsUnits component">
+    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="refactor: change navbar href in Logout">
       <change afterPath="$PROJECT_DIR$/src/components/Invoices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Suppliers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Headers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Employees/Employees.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Employees/Employees.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +79,8 @@
       <workItem from="1619765919407" duration="4692000" />
       <workItem from="1619776808006" duration="5777000" />
       <workItem from="1620799502535" duration="149000" />
-      <workItem from="1621252267522" duration="1432000" />
+      <workItem from="1621252267522" duration="4070000" />
+      <workItem from="1621450248394" duration="3087000" />
     </task>
     <task id="LOCAL-00001" summary="fetch: create navbar component">
       <created>1619623287687</created>
@@ -140,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619770577110</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: Chance Customers to Employees and fetch data from db">
+      <created>1621253861168</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621253861168</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor: change navbar href in Logout">
+      <created>1621452706440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621452706440</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +187,8 @@
     <MESSAGE value="feat: create Products connection to backend" />
     <MESSAGE value="feat: add images, sidebarlogin and new icon" />
     <MESSAGE value="feat: Create ProductsUnits component" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Create ProductsUnits component" />
+    <MESSAGE value="feat: Chance Customers to Employees and fetch data from db" />
+    <MESSAGE value="refactor: change navbar href in Logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: change navbar href in Logout" />
   </component>
 </project>

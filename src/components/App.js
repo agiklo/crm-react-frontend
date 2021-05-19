@@ -8,6 +8,8 @@ import ProductsUnits from "./ProductsUnits";
 import Employees from "./Employees/Employees"
 import NavBar from "./Elements/NavBar";
 import Dashboard from './Dashboard/Dashboard'
+import Invoices from "./Invoices";
+import Suppliers from "./Suppliers";
 
 class App extends React.Component {
 
@@ -32,6 +34,12 @@ class App extends React.Component {
                             </Route>
                             <Route path={"/employees"}>
                                 <Employees/>
+                            </Route>
+                            <Route path={"/invoices"}>
+                                <Invoices/>
+                            </Route>
+                            <Route path={"/suppliers"}>
+                                <Suppliers/>
                             </Route>
                         </Switch>
                         <Footer/>
