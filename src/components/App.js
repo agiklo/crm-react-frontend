@@ -2,14 +2,18 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import Login from "./Login";
-import Products from "./Products";
+import Products from "./Products/Products";
 import Footer from "./Elements/Footer";
-import ProductsUnits from "./ProductsUnits";
+import ProductsUnits from "./Products/ProductsUnits";
 import Employees from "./Employees/Employees"
 import NavBar from "./Elements/NavBar";
 import Dashboard from './Dashboard/Dashboard'
 import Invoices from "./Invoices";
 import Suppliers from "./Suppliers";
+import Posts from "./Forum/Posts";
+import Absenteeisms from "./Absenteeisms";
+import Departments from "./Departments";
+import Customers from "./Employees/Customers";
 
 class App extends React.Component {
 
@@ -40,6 +44,18 @@ class App extends React.Component {
                             </Route>
                             <Route path={"/suppliers"}>
                                 <Suppliers/>
+                            </Route>
+                            <Route path={"/forum"}>
+                                <Posts/>
+                            </Route>
+                            <Route path={"/absenteeisms"}>
+                                <Absenteeisms/>
+                            </Route>
+                            <Route path={"/departments"}>
+                                <Departments/>
+                            </Route>
+                            <Route path={"/customers"}>
+                                <Customers/>
                             </Route>
                         </Switch>
                         <Footer/>
