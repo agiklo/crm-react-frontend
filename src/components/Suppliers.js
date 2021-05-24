@@ -71,7 +71,6 @@ class Suppliers extends React.Component {
 
     render() {
         return (
-            <div className={"container"}>
                 <div className="container-fluid m-2">
                     <h3 className="text-dark mb-4">Suppliers</h3>
                     <div className="card shadow">
@@ -156,7 +155,6 @@ class Suppliers extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }

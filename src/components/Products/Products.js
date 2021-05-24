@@ -71,7 +71,6 @@ class Products extends React.Component {
 
     render() {
         return (
-            <div className={"container"}>
                 <div className="container-fluid m-2">
                     <h3 className="text-dark mb-4">Products</h3>
                     <div className="card shadow">
@@ -162,7 +161,6 @@ class Products extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }

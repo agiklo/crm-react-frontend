@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="refactor: change navbar href in Logout">
-      <change afterPath="$PROJECT_DIR$/src/components/Invoices.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Suppliers.js" afterDir="false" />
+    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="refactor: add invoices and suppliers routing in App.js, delete unnecesary comments">
+      <change afterPath="$PROJECT_DIR$/src/components/Absenteeisms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Departments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Employees/Customers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Forum/Posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Employees/Employees.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Employees/Employees.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Elements/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Elements/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Invoices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Invoices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductsUnits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ProductsUnits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Suppliers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Suppliers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +48,14 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mateu\WebstormProjects\crm-frontend\src\components\Employees" />
+      <recent name="C:\Users\mateu\WebstormProjects\crm-frontend\src\components\Products" />
+      <recent name="C:\Users\mateu\WebstormProjects\crm-frontend\src\components\Forum" />
       <recent name="C:\Users\mateu\WebstormProjects\crm-frontend\public" />
     </key>
   </component>
@@ -80,7 +88,8 @@
       <workItem from="1619776808006" duration="5777000" />
       <workItem from="1620799502535" duration="149000" />
       <workItem from="1621252267522" duration="4070000" />
-      <workItem from="1621450248394" duration="3087000" />
+      <workItem from="1621450248394" duration="3507000" />
+      <workItem from="1621872628203" duration="10679000" />
     </task>
     <task id="LOCAL-00001" summary="fetch: create navbar component">
       <created>1619623287687</created>
@@ -159,7 +168,35 @@
       <option name="project" value="LOCAL" />
       <updated>1621452706440</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor: move all users cards to one container, add exports buttons and add new employee">
+      <created>1621453454844</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621453454844</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: create Invoices component">
+      <created>1621453537189</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621453537189</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: create Suppliers component">
+      <created>1621453576470</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621453576470</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor: add invoices and suppliers routing in App.js, delete unnecesary comments">
+      <created>1621453626091</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621453626091</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +226,10 @@
     <MESSAGE value="feat: Create ProductsUnits component" />
     <MESSAGE value="feat: Chance Customers to Employees and fetch data from db" />
     <MESSAGE value="refactor: change navbar href in Logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: change navbar href in Logout" />
+    <MESSAGE value="refactor: move all users cards to one container, add exports buttons and add new employee" />
+    <MESSAGE value="feat: create Invoices component" />
+    <MESSAGE value="feat: create Suppliers component" />
+    <MESSAGE value="refactor: add invoices and suppliers routing in App.js, delete unnecesary comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: add invoices and suppliers routing in App.js, delete unnecesary comments" />
   </component>
 </project>
