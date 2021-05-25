@@ -14,6 +14,8 @@ import Posts from "./Forum/Posts";
 import Absenteeisms from "./Absenteeisms";
 import Departments from "./Departments";
 import Customers from "./Employees/Customers";
+import NewProductForm from "./Products/NewProductForm";
+import NewCustomerForm from "./Employees/NewCustomerForm";
 
 class App extends React.Component {
 
@@ -29,6 +31,9 @@ class App extends React.Component {
                             </Route>
                             <Route exact path={"/login"}>
                                 <Login/>
+                            </Route>
+                            <Route exact path={"/products/new-product"}>
+                                <NewProductForm/>
                             </Route>
                             <Route path={"/products"}>
                                 <Products/>
@@ -53,6 +58,9 @@ class App extends React.Component {
                             </Route>
                             <Route path={"/departments"}>
                                 <Departments/>
+                            </Route>
+                            <Route exact path={"/customers/new-customer"}>
+                                <NewCustomerForm/>
                             </Route>
                             <Route path={"/customers"}>
                                 <Customers/>
