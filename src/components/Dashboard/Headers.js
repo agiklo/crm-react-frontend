@@ -8,17 +8,28 @@ const api = axios.create({
 
 class Headers extends React.Component{
 
-    state = {employees: []}
+    state = {employees: [], products: []}
 
     constructor() {
         super();
         this.getEmployees();
+        this.getProducts();
     }
 
     getEmployees = async () => {
         try {
             let data = await api.get('employees').then(({data}) => data);
             this.setState({employees: data})
+        } catch (err) {
+
+            console.log(err)
+        }
+    }
+
+    getProducts = async () => {
+        try {
+            let data = await api.get('products').then(({data}) => data);
+            this.setState({products: data})
         } catch (err) {
 
             console.log(err)
@@ -80,7 +91,7 @@ class Headers extends React.Component{
                     <div className="row align-items-center no-gutters">
                         <div className="col mr-2">
                             <div className="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>Products</span></div>
-                            <div className="text-dark font-weight-bold h5 mb-0"><span>12</span></div>
+                            <div className="text-dark font-weight-bold h5 mb-0"><span>{this.state.products.length}</span></div>
                         </div>
                         <div className="col-auto"><i className="fas fa-comments fa-2x text-gray-300"></i></div>
                     </div>
