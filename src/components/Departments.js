@@ -28,7 +28,7 @@ class Departments extends React.Component {
 
     getDepartments = async () => {
         try {
-            let data = await api.get('/',{
+            let data = await api.get('',{
                 // headers: {
                 //     Authorization: 'Bearer ' + localStorage.getItem('token')
                 // },
@@ -116,6 +116,7 @@ class Departments extends React.Component {
                                     <tr className={"table-responsive-sm bordered hover"}  key={department.departmentId}>
                                         <td>{department.departmentId}</td>
                                         <td>{department.departmentName}</td>
+                                        <td>{department.city}</td>
                                         <td>{department.managerFirstName + " " + department.managerLastName}</td>
                                         <td>
                                             <Button className={"mr-sm-2"} onClick={() => this.deleteDepartments(department.id)}>Delete</Button>
