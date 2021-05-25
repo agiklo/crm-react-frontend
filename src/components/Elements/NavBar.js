@@ -22,13 +22,13 @@ class NavBar extends React.Component{
                     <Nav.Link href="/forum">Forum</Nav.Link>
                 </Nav>
                 <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-light">Search</Button>
+                    <FormControl type="text" placeholder="Search for a product" className="mr-sm-2" name={"name"} />
+                    <Button href={"/products"} variant="outline-light">Search</Button>
                 </Form>
                 <Nav>
                     <NavDropdown title="Settings" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Settings</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">My posts</NavDropdown.Item>
+                        <NavDropdown.Item href="/settings">Settings</NavDropdown.Item>
+                        <NavDropdown.Item href="/forum/my-posts">My posts</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/logout">Logout</NavDropdown.Item>
                     </NavDropdown>
