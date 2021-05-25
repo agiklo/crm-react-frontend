@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="refactor: add invoices and suppliers routing in App.js, delete unnecesary comments">
-      <change afterPath="$PROJECT_DIR$/src/components/Absenteeisms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Departments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Employees/Customers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Forum/Posts.js" afterDir="false" />
+    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="refactor: cleaning code, refactoring">
+      <change afterPath="$PROJECT_DIR$/src/components/Employees/NewCustomerForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Products/NewProductForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Headers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Departments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Departments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Elements/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Elements/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Elements/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Elements/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Invoices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Invoices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductsUnits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ProductsUnits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Suppliers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Suppliers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Employees/Customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Employees/Customers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forum/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forum/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,8 @@
       <workItem from="1620799502535" duration="149000" />
       <workItem from="1621252267522" duration="4070000" />
       <workItem from="1621450248394" duration="3507000" />
-      <workItem from="1621872628203" duration="10679000" />
+      <workItem from="1621872628203" duration="11078000" />
+      <workItem from="1621949285647" duration="12827000" />
     </task>
     <task id="LOCAL-00001" summary="fetch: create navbar component">
       <created>1619623287687</created>
@@ -196,7 +197,56 @@
       <option name="project" value="LOCAL" />
       <updated>1621453626091</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: Create Departments component">
+      <created>1621883787326</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621883787326</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: Create Absenteeisms component">
+      <created>1621883806621</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1621883806621</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: Create Customers component">
+      <created>1621883820209</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1621883820209</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: Create Posts component">
+      <created>1621883835168</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621883835168</updated>
+    </task>
+    <task id="LOCAL-00020" summary="refactor: Add Customers to navbar">
+      <created>1621883873143</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621883873143</updated>
+    </task>
+    <task id="LOCAL-00021" summary="refactor: create routes to forum, abseenteeisms, departments and customers">
+      <created>1621883906814</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621883906814</updated>
+    </task>
+    <task id="LOCAL-00022" summary="refactor: cleaning code, refactoring">
+      <created>1621883941811</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621883941811</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +280,13 @@
     <MESSAGE value="feat: create Invoices component" />
     <MESSAGE value="feat: create Suppliers component" />
     <MESSAGE value="refactor: add invoices and suppliers routing in App.js, delete unnecesary comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: add invoices and suppliers routing in App.js, delete unnecesary comments" />
+    <MESSAGE value="feat: Create Departments component" />
+    <MESSAGE value="feat: Create Absenteeisms component" />
+    <MESSAGE value="feat: Create Customers component" />
+    <MESSAGE value="feat: Create Posts component" />
+    <MESSAGE value="refactor: Add Customers to navbar" />
+    <MESSAGE value="refactor: create routes to forum, abseenteeisms, departments and customers" />
+    <MESSAGE value="refactor: cleaning code, refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: cleaning code, refactoring" />
   </component>
 </project>
