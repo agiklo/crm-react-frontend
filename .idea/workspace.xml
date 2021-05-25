@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="refactor: cleaning code, refactoring">
-      <change afterPath="$PROJECT_DIR$/src/components/Employees/NewCustomerForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Products/NewProductForm.js" afterDir="false" />
+    <list default="true" id="d73230ec-6a28-4056-bf74-5eb773a2b264" name="Default Changelist" comment="feat: create deleting option in customers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Headers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Departments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Departments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Elements/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Elements/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Elements/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Elements/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Employees/Customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Employees/Customers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Forum/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forum/Posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +81,7 @@
       <workItem from="1621252267522" duration="4070000" />
       <workItem from="1621450248394" duration="3507000" />
       <workItem from="1621872628203" duration="11078000" />
-      <workItem from="1621949285647" duration="12827000" />
+      <workItem from="1621949285647" duration="13461000" />
     </task>
     <task id="LOCAL-00001" summary="fetch: create navbar component">
       <created>1619623287687</created>
@@ -246,7 +237,63 @@
       <option name="project" value="LOCAL" />
       <updated>1621883941811</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat: create new customer and product form components">
+      <created>1621962502883</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1621962502883</updated>
+    </task>
+    <task id="LOCAL-00024" summary="refactor: change searching to search for a product">
+      <created>1621962554965</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1621962554965</updated>
+    </task>
+    <task id="LOCAL-00025" summary="refactor: delete with &lt;3 in footer">
+      <created>1621962589742</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1621962589742</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: add forms in routing">
+      <created>1621962608097</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621962608097</updated>
+    </task>
+    <task id="LOCAL-00027" summary="refactor: delete posts options chooser">
+      <created>1621962671388</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1621962671388</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix: header show amount of products">
+      <created>1621962766689</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1621962766689</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix: component department display data from api">
+      <created>1621962830386</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1621962830386</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: create deleting option in customers">
+      <created>1621962899050</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1621962899050</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,11 +312,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fetch: create navbar component" />
-    <MESSAGE value="feat: create routing and table of products(without api)" />
-    <MESSAGE value="feat: create Login page component" />
-    <MESSAGE value="feat: create Footer" />
-    <MESSAGE value="feat: update login, add jwt post authorization" />
     <MESSAGE value="feat: delete Home from NavBar" />
     <MESSAGE value="feat: create Products connection to backend" />
     <MESSAGE value="feat: add images, sidebarlogin and new icon" />
@@ -287,6 +329,14 @@
     <MESSAGE value="refactor: Add Customers to navbar" />
     <MESSAGE value="refactor: create routes to forum, abseenteeisms, departments and customers" />
     <MESSAGE value="refactor: cleaning code, refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: cleaning code, refactoring" />
+    <MESSAGE value="feat: create new customer and product form components" />
+    <MESSAGE value="refactor: change searching to search for a product" />
+    <MESSAGE value="refactor: delete with &lt;3 in footer" />
+    <MESSAGE value="feat: add forms in routing" />
+    <MESSAGE value="refactor: delete posts options chooser" />
+    <MESSAGE value="fix: header show amount of products" />
+    <MESSAGE value="fix: component department display data from api" />
+    <MESSAGE value="feat: create deleting option in customers" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create deleting option in customers" />
   </component>
 </project>

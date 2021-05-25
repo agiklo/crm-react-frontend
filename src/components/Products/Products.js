@@ -38,7 +38,6 @@ class Products extends React.Component {
             }}).then(({data}) => data);
             this.setState({products: data})
         } catch (err) {
-
             console.log(err)
         }
     }
@@ -92,8 +91,8 @@ class Products extends React.Component {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="text-md-right dataTables_filter" id="dataTable_filter"><label>
-                                        <Button className={"mr-sm-2"}>Add new product</Button>
-                                        <Button className={"mr-sm-2"} onClick={() => this.exportToPdf()}>Export to PDF</Button>
+                                        <Button href={"/products/new-product"} className={"mr-sm-2"}>Add new product</Button>
+                                        <Button onClick={() => this.exportToPdf()} className={"mr-sm-2"}>Export to PDF</Button>
                                         <Button onClick={() => this.exportToExcel()}>Export to Excel</Button>
                                     </label>
                                     </div>
