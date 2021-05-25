@@ -43,6 +43,31 @@ class Customers extends React.Component {
         }
     }
 
+    getCustomersByFirstName = async (firstname) => {
+        try {
+            let data = await api.get(`/?firstname=${firstname}`,{
+                // headers: {
+                //     Authorization: 'Bearer ' + localStorage.getItem('token')
+                // },
+                params: {
+                    page: this.pageNumber,
+                    size: this.sizeNumber
+                }}).then(({data}) => data);
+            this.setState({customers: data})
+        } catch (err) {
+            console.log(err)
+        }
+    }
+
+    deleteCustomer = async (id) => {
+        let data = await api.delete(`/${id}`)
+        this.getCustomers()
+    }
+
+    updateCustomer = async () => {
+        let data = await api.put(`/`)
+    }
+
     exportToPdf = async () => {
         await  api.get(`/export/pdf`, {
             headers: {
@@ -83,7 +108,7 @@ class Customers extends React.Component {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="text-md-right dataTables_filter" id="dataTable_filter"><label>
-                                        <Button className={"mr-sm-2"}>Add new Customer</Button>
+                                        <Button href={"/customers/new-customer"} className={"mr-sm-2"}>Add new Customer</Button>
                                         <Button className={"mr-sm-2"} onClick={() => this.exportToPdf()}>Export to PDF</Button>
                                         <Button onClick={() => this.exportToExcel()}>Export to Excel</Button>
                                     </label>
@@ -106,15 +131,16 @@ class Customers extends React.Component {
                                                             <strong>{customer.city}</strong><br/>
                                                             {customer.zipCode}<br/>
                                                         </address>
-
                                                     </a>
                                                     <div className="contact-box-footer">
                                                         <div className="m-t-xs btn-group">
-                                                            <a className="btn btn-xs btn-white">Edit</a>
+                                                            <a onClick={() => this.updateCustomer()} className={"btn btn-xs btn-white"}>Edit</a>
+                                                            <a className={"btn btn-xs btn-white"} onClick={() => this.deleteCustomer(customer.id)}>Delete</a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>)}
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             </div>
